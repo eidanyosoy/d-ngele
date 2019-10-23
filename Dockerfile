@@ -1,14 +1,14 @@
 FROM php:7.3.5-fpm-alpine3.9
 
-LABEL maintainer="Ric Harvey <ric@ngd.io>"
+LABEL maintainer="MrDoobPG<mrdoobpg@pts>"
 
 ENV php_conf /usr/local/etc/php-fpm.conf
 ENV fpm_conf /usr/local/etc/php-fpm.d/www.conf
 ENV php_vars /usr/local/etc/php/conf.d/docker-vars.ini
 
-ENV NGINX_VERSION 1.16.0
+ENV NGINX_VERSION 1.17.5
 ENV LUA_MODULE_VERSION 0.10.14
-ENV DEVEL_KIT_MODULE_VERSION 0.3.0
+ENV DEVEL_KIT_MODULE_VERSION 0.3.1
 ENV LUAJIT_LIB=/usr/lib
 ENV LUAJIT_INC=/usr/include/luajit-2.1
 
