@@ -1,6 +1,6 @@
-FROM php:7.3.5-fpm-alpine3.9
+FROM php:8.0.0-alpine3.12
 
-LABEL maintainer="MrDoobPG<mrdoobpg@pts>"
+LABEL maintainer="no<dont@me>"
 
 ENV php_conf /usr/local/etc/php-fpm.conf
 ENV fpm_conf /usr/local/etc/php-fpm.d/www.conf
