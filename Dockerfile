@@ -1,7 +1,5 @@
 FROM php:8.0.0-alpine3.12
 
-LABEL maintainer="no<dont@me>"
-
 ENV php_conf /usr/local/etc/php-fpm.conf
 ENV fpm_conf /usr/local/etc/php-fpm.d/www.conf
 ENV php_vars /usr/local/etc/php/conf.d/docker-vars.ini
